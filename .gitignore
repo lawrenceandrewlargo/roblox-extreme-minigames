@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.env
+roblox/build/
+roblox/sourcemap.json
+*.rbxl.lock
+.DS_Store

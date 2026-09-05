@@ -1,0 +1,24 @@
+{
+  "name": "PartyChaos",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": { "$path": "src/shared" },
+      "Remotes": { "$className": "Folder" },
+      "Assets": { "$path": "assets" }
+    },
+    "ServerScriptService": {
+      "Server": { "$path": "src/server" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": { "$path": "src/client" }
+      }
+    },
+    "Workspace": {
+      "$properties": { "FilteringEnabled": true },
+      "Lobby": { "$className": "Folder" },
+      "ActiveMap": { "$className": "Folder" }
+    }
+  }
+}
